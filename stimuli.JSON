@@ -123,25 +123,197 @@
             ],
             "nextButtonText": "Next"
         },
-        "mcq":{
+       "stimuli-1-q1": {
             "kind": "exp-lookit-survey",
-            "blocks": [
-            {
-              "blockType": "text",
-              "text": "What is your favorite color?"
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Green Hat",
+                                "Orange Hat"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the hat he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the hat he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
             },
-            {
-              "blockType": "radio",
-              "question": "Choose one:",
-              "options": [
-                "Red",
-                "Blue",
-                "Green",
-                "Yellow"
-              ]
-            }
-          ],
-          "nextButtonText": "Next"
+            "nextButtonText": "Next"
+        },
+        "stimuli-1-q2": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Blue Book",
+                                "Yellow Book"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the book he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the book he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "stimuli-1-q3": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Red Ball",
+                                "Blue Ball"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the ball he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the ball he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "stimuli-2-q1": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Orange Hat",
+                                "Green Hat"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the hat he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the hat he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "stimuli-2-q2": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Yellow Book",
+                                "Blue Book"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the book he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the book he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "stimuli-2-q3": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pass Elmo a hat!",
+                    "properties": {
+                        "species": {
+                            "enum": [
+                                "Blue Ball",
+                                "Red Ball"
+                            ],
+                            "type": "string",
+                            "title": "Can you pass Elmo the ball he wants?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "species": {
+                            "type": "radio",
+                            "message": "Please pass Elmo the ball he wants!",
+                            "validator": "required-field",
+                            "removeDefaultNone": true,
+                            "sort": false
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
         },
         "all-trials": {
             "kind": "choice",
@@ -155,6 +327,9 @@
                     "doRecording": true
                 },
                 {
+                    "frameId": "QUESTION01"
+                },
+                {
                     "video": {
                         "position": "fill",
                         "source": "VIDEO2"
@@ -162,23 +337,35 @@
                     "doRecording": true
                 },
                 {
+                    "frameId": "QUESTION02"
+                },
+                {
                     "video": {
                         "position": "fill",
                         "source": "VIDEO3"
                     },
                     "doRecording": true
+                },
+                {
+                    "frameId": "QUESTION03"
                 }
             ],
             "parameterSets": [
                 {
                     "VIDEO1": "Stimuli_1.1",
+                    "QUESTION01": "stimuli-1-q1",
                     "VIDEO2": "Stimuli_1.2",
-                    "VIDEO3": "Stimuli_1.3"
+                    "QUESTION02": "stimuli-1-q2",
+                    "VIDEO3": "Stimuli_1.3",
+                    "QUESTION03": "stimuli-1-q3"
                 },
                 {
                     "VIDEO1": "Stimuli_2.1",
+                    "QUESTION01": "stimuli-2-q1",
                     "VIDEO2": "Stimuli_2.2",
-                    "VIDEO3": "Stimuli_2.3"
+                    "QUESTION02": "stimuli-2-q2",
+                    "VIDEO3": "Stimuli_2.3",
+                    "QUESTION03": "stimuli-2-q3"
                 }
             ],
             "commonFrameProperties": {
