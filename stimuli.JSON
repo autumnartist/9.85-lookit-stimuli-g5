@@ -320,66 +320,197 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
+                    "kind": "exp-lookit-video",
                     "video": {
                         "position": "fill",
                         "source": "VIDEO1"
                     },
+                    "backgroundColor": "white",
+                    "autoProceed": false,
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "videoTypes": [
+                        "webm",
+                        "mp4"
+                    ],
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1,
                     "doRecording": true
                 },
                 {
-                    "frameId": "QUESTION01"
+                    "kind": "exp-lookit-survey",
+                    "formSchema": {
+                        "schema": {
+                            "type": "object",
+                            "title": "Q1-TITLE",
+                            "properties": {
+                                "species": {
+                                    "enum": [
+                                        "Q1-MC1",
+                                        "Q1-MC2"
+                                    ],
+                                    "type": "string",
+                                    "title": "Q1",
+                                    "default": ""
+                                }
+                            }
+                        },
+                        "options": {
+                            "fields": {
+                                "species": {
+                                    "type": "radio",
+                                    "message": "Q1-REQUIRED",
+                                    "validator": "required-field",
+                                    "removeDefaultNone": true,
+                                    "sort": false
+                                }
+                            }
+                        }
+                    }
                 },
                 {
+                    "kind": "exp-lookit-video",
                     "video": {
                         "position": "fill",
                         "source": "VIDEO2"
                     },
+                    "backgroundColor": "white",
+                    "autoProceed": false,
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "videoTypes": [
+                        "webm",
+                        "mp4"
+                    ],
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1,
                     "doRecording": true
                 },
                 {
-                    "frameId": "QUESTION02"
+                    "kind": "exp-lookit-survey",
+                    "formSchema": {
+                        "schema": {
+                            "type": "object",
+                            "title": "Q2-TITLE",
+                            "properties": {
+                                "species": {
+                                    "enum": [
+                                        "Q2-MC1",
+                                        "Q2-MC2"
+                                    ],
+                                    "type": "string",
+                                    "title": "Q2",
+                                    "default": ""
+                                }
+                            }
+                        },
+                        "options": {
+                            "fields": {
+                                "species": {
+                                    "type": "radio",
+                                    "message": "Q2-REQUIRED",
+                                    "validator": "required-field",
+                                    "removeDefaultNone": true,
+                                    "sort": false
+                                }
+                            }
+                        }
+                    }
                 },
                 {
+                    "kind": "exp-lookit-video",
                     "video": {
                         "position": "fill",
                         "source": "VIDEO3"
                     },
-                    "doRecording": true
+                    "backgroundColor": "white",
+                    "autoProceed": false,
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "videoTypes": [
+                        "webm",
+                        "mp4"
+                    ],
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
-                    "frameId": "QUESTION03"
+                    "kind": "exp-lookit-survey",
+                    "formSchema": {
+                        "schema": {
+                            "type": "object",
+                            "title": "Q3-TITLE",
+                            "properties": {
+                                "species": {
+                                    "enum": [
+                                        "Q3-MC1",
+                                        "Q3-MC2"
+                                    ],
+                                    "type": "string",
+                                    "title": "Q3",
+                                    "default": ""
+                                }
+                            }
+                        },
+                        "options": {
+                            "fields": {
+                                "species": {
+                                    "type": "radio",
+                                    "message": "Q3-REQUIRED",
+                                    "validator": "required-field",
+                                    "removeDefaultNone": true,
+                                    "sort": false
+                                }
+                            }
+                        }
+                    }
                 }
             ],
             "parameterSets": [
                 {
                     "VIDEO1": "Stimuli_1.1",
-                    "QUESTION01": "stimuli-1-q1",
+                    "Q1-TITLE": "Pass Elmo a hat!",
+                    "Q1-MC1": "Green Hat",
+                    "Q1-MC2": "Orange Hat",
+                    "Q1": "Can you pass Elmo the hat he wants?",
+                    "Q1-REQUIRED": "Please pass Elmo a hat!",
                     "VIDEO2": "Stimuli_1.2",
-                    "QUESTION02": "stimuli-1-q2",
+                    "Q2-TITLE": "Pass Elmo a book!",
+                    "Q2-MC1": "Blue Book",
+                    "Q2-MC2": "Yellow Book",
+                    "Q2": "Can you pass Elmo the book he wants?",
+                    "Q2-REQUIRED": "Please pass Elmo a book!",
                     "VIDEO3": "Stimuli_1.3",
-                    "QUESTION03": "stimuli-1-q3"
+                    "Q3-TITLE": "Pass Elmo a ball!",
+                    "Q3-MC1": "Red Ball",
+                    "Q3-MC2": "Blue Ball",
+                    "Q3": "Can you pass Elmo the ball he wants?",
+                    "Q3-REQUIRED": "Please pass Elmo a ball!"
                 },
-                {
+                 {
                     "VIDEO1": "Stimuli_2.1",
-                    "QUESTION01": "stimuli-2-q1",
+                    "Q1-TITLE": "Pass Elmo a hat!",
+                    "Q1-MC1": "Orange Hat",
+                    "Q1-MC2": "Green Hat",
+                    "Q1": "Can you pass Elmo the hat he wants?",
+                    "Q1-REQUIRED": "Please pass Elmo a hat!",
                     "VIDEO2": "Stimuli_2.2",
-                    "QUESTION02": "stimuli-2-q2",
+                    "Q2-TITLE": "Pass Elmo a book!",
+                    "Q2-MC1": "Yellow Book",
+                    "Q2-MC2": "Blue Book",
+                    "Q2": "Can you pass Elmo the book he wants?",
+                    "Q2-REQUIRED": "Please pass Elmo a book!",
                     "VIDEO3": "Stimuli_2.3",
-                    "QUESTION03": "stimuli-2-q3"
+                    "Q3-TITLE": "Pass Elmo a ball!",
+                    "Q3-MC1": "Blue Ball",
+                    "Q3-MC2": "Red Ball",
+                    "Q3": "Can you pass Elmo the ball he wants?",
+                    "Q3-REQUIRED": "Please pass Elmo a ball!"
                 }
+                
             ],
             "commonFrameProperties": {
-                "kind": "exp-lookit-video",
-                "backgroundColor": "white",
-                "autoProceed": false,
-                "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
-                "videoTypes": [
-                    "webm",
-                    "mp4"
-                ],
-                "requiredDuration": 0,
-                "requireAudioCount": 0,
-                "requireVideoCount": 1,
+                "doRecording": true,
                 "parentTextBlock": {
                     "css": {
                         "font": "13pt sans-serif"
