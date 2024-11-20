@@ -1,0 +1,224 @@
+{
+    "frames": {
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please feel free to email Shengyi Wu at shengyiw@mit.edu and we'd be glad to help you out!"
+        },
+        "survey-consent": {
+            "kind": "exp-lookit-survey-consent",
+            "title": "Consent for a Child’s Participation in a Study for Educational Purposes Only \n 9.85 Capstone Social Pragmatics",
+            "items": [
+                {
+                    "kind": "text-block",
+                    "text": "Dear Parents,<br><br>We are inviting your child to participate in a replication study as part of training MIT undergraduate students in a course on infant and child development. The vast majority of studies posted on Children Helping Science are for research purposes. Studies purely for educational purposes constitute a tiny minority of studies on the platform <1%. However, this particular study will be used only for training students. The results of the study will not be published anywhere."
+                },
+                {
+                    "kind": "text-block",
+                    "text": "This study looks at whether children can use context clues to determine what someone is requesting when the request is ambiguous. Through examining if children rely on these context clues (i.e. proximity, etc.), we can gain insights into how children begin to resolve ambiguities in social interactions. Ultimaetly this research will help contribute to our understanding of the early development of pragmatic language skills and the role of common sense reasoning plays in social situations for young children. No videos will be downloaded and all videos will be available for viewing only to the students, faculty, and teaching assistants in the class for the duration of the class and will be deleted by December 20th, 2024. "
+                },
+                {
+                    "kind": "text-block",
+                    "text": "I understand that participation in this study is entirely voluntary, and if I decide that I do not want my child to take part, they can stop taking part in this study at any time without giving a reason."
+                },
+                {
+                    "kind": "text-block",
+                    "text": "If you have questions about the details of the study, you can contact Shengyi Wu at shengyiw@mit.edu. If you have any additional questions, you can contact the faculty member teaching the class, Laura Schulz at lschulz@mit.edu."
+                },
+                {
+                    "kind": "checkbox-item",
+                    "text": "I am this child’s parent or legal guardian and I give my permission for the child to participate in this study",
+                    "label": "consent"
+                }
+            ]
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Webcam setup for the study",
+            "introText": "Please check each of the following to ensure we're able to use your video:",
+            "requireItemConfirmation": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is pointing to the left or right!",
+                    "image": {
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png",
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop."
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png",
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen."
+                    }
+                },
+                {
+                    "text": "Check the lighting by making sure you can <strong>clearly see your own eyes</strong> on the webcam view to the right. You may need to either turn on a light or reduce light coming from behind you.",
+                    "image": {
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/lighting.png",
+                        "alt": "Example images showing good lighting, room too dark, and backlit scene where eyes are not visible."
+                    }
+                },
+                {
+                    "text": "If it's practical, <strong>minimize exciting things</strong> that are visible behind or to the side of the screen--for instance, by facing a wall instead of the kitchen. (If this isn't practical for you, don't worry about it--just check the box!)",
+                    "image": {
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/distractions.png",
+                        "alt": "Example images showing a child and puppy next to the computer, versus a computer just on its own."
+                    }
+                }
+            ],
+            "requireTestVideo": false,
+            "showRecordMenu": false,
+            "recordingInstructionText": "You should be able to see your camera view above.",
+            "nextButtonText": "Next"
+        },
+        "instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Overview of what will happen in this study",
+                    "listblocks": [
+                        {
+                            "text": "Your child will view a scenario where there are two items on the scene at different distances from Elmo, the puppet. Then, Elmo will ask your child to pass him the item."
+                        },
+                        {
+                            "text": "Your child will have to decide which item to pass to Elmo. We will observe and record their selection to see if children intuitively rely on proximity (how close the hat is to them) or other factors to resolve an ambiguous request."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please try playing this sample audio to make sure you'll be able to hear the story.",
+                    "title": "Adjust your speakers",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go?'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "Make sure we can see you",
+                    "listblocks": [
+                        {
+                            "text": "Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible."
+                        },
+                        {
+                            "text": "This isn't a Skype call - no one in the lab can see you - but the recorded video of your participation will be sent to the lab to help with data analysis. It's helpful for us to be able to see if your child was pointing or looking confused, for example."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        },
+        "mcq":{
+            "kind": "exp-lookit-survey",
+            "blocks": [
+            {
+              "blockType": "text",
+              "text": "What is your favorite color?"
+            },
+            {
+              "blockType": "radio",
+              "question": "Choose one:",
+              "options": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow"
+              ]
+            }
+          ],
+          "nextButtonText": "Next"
+        },
+        "all-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO1"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO2"
+                    },
+                    "doRecording": true
+                },
+                {
+                    "video": {
+                        "position": "fill",
+                        "source": "VIDEO3"
+                    },
+                    "doRecording": true
+                }
+            ],
+            "parameterSets": [
+                {
+                    "VIDEO1": "Stimuli_1.1",
+                    "VIDEO2": "Stimuli_1.2",
+                    "VIDEO3": "Stimuli_1.3"
+                },
+                {
+                    "VIDEO1": "Stimuli_2.1",
+                    "VIDEO2": "Stimuli_2.2",
+                    "VIDEO3": "Stimuli_2.3"
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video",
+                "backgroundColor": "white",
+                "autoProceed": false,
+                "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                "videoTypes": [
+                    "webm",
+                    "mp4"
+                ],
+                "requiredDuration": 0,
+                "requireAudioCount": 0,
+                "requireVideoCount": 1,
+                "parentTextBlock": {
+                    "css": {
+                        "font": "13pt sans-serif"
+                    },
+                    "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                    "title": "For Parents"
+                }
+            }},
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "Thank you so much for participating in this study! This study is based on a published paper https://pubmed.ncbi.nlm.nih.gov/31301068/.<br><br>. The main finding of the study was that 4-5 year old children can use their intuitive understanding of costs and rewards to resolve ambiguous language. The experiment showed that children are able to infer the intended meaning behind vague requests by considering utility maximization, meaning who would find it easier to help or what object would be less costly for one to obtain. Here, the students replicated only a single part of the study, looking at experiment 4a. Thank you again for participating! We'll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm that a child is with you in the video recording and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Please don’t hesitate to contact me at (INSERT TA's email) if you have any additional questions or feedback!",
+                "title": "Thank you for your participation!"
+            },
+            "showDatabraryOptions": false,
+            "includeWithdrawalExample": true,
+            "privateLevelOnly": true,
+            "additionalVideoPrivacyText": "Data will be available for viewing only to the students, faculty, and teaching assistants in the class for the duration of the class and will be deleted by December 20th, 2024."
+        }
+    },
+    "sequence": [
+        "video-config",
+        "survey-consent",
+        "video-quality",
+        "instructions",
+        "all-trials",
+        "exit-survey"
+    ]
+}
