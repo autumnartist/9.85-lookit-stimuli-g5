@@ -6,7 +6,7 @@
         },
         "survey-consent": {
             "kind": "exp-lookit-survey-consent",
-            "title": "Consent for a Child’s Participation in a Study for Educational Purposes Only \n 9.85 Capstone Social Pragmatics",
+            "title": "Consent for a Child’s Participation in a Study for Educational Purposes Only \n Help Elmo Decide!",
             "items": [
                 {
                     "kind": "text-block",
@@ -14,7 +14,7 @@
                 },
                 {
                     "kind": "text-block",
-                    "text": "This study looks at whether children can use context clues to determine what someone is requesting when the request is ambiguous. Through examining if children rely on these context clues (i.e. proximity, etc.), we can gain insights into how children begin to resolve ambiguities in social interactions. Ultimaetly this research will help contribute to our understanding of the early development of pragmatic language skills and the role of common sense reasoning plays in social situations for young children. No videos will be downloaded and all videos will be available for viewing only to the students, faculty, and teaching assistants in the class for the duration of the class and will be deleted by December 20th, 2024. "
+                    "text": "This study looks at whether children can use context clues to determine what someone is requesting when the request is ambiguous. Through examining if children rely on these context clues (i.e. proximity, etc.), we can gain insights into how children begin to resolve ambiguities in social interactions. Ultimately this research will help contribute to our understanding of the early development of pragmatic language skills and the role of common sense reasoning plays in social situations for young children. No videos will be downloaded and all videos will be available for viewing only to the students, faculty, and teaching assistants in the class for the duration of the class and will be deleted by December 20th, 2024. "
                 },
                 {
                     "kind": "text-block",
@@ -82,7 +82,10 @@
                             "text": "Your child will view a scenario where there are two items on the scene at different distances from Elmo, the puppet. Then, Elmo will ask your child to pass him the item."
                         },
                         {
-                            "text": "Your child will have to decide which item to pass to Elmo. We will observe and record their selection to see if children intuitively rely on proximity (how close the hat is to them) or other factors to resolve an ambiguous request."
+                            "text": "Your child will have to decide which item to pass to Elmo."
+                        },
+                        {
+                            "text": "Please do not add any additional explanations to the story and try not to influence your child's answers. One exception is that if your child fails to respond to a question at all, you can repeat the question back to your child."
                         }
                     ]
                 },
@@ -123,198 +126,6 @@
             ],
             "nextButtonText": "Next"
         },
-       "stimuli-1-q1": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Green Hat",
-                                "Orange Hat"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the hat he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the hat he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
-        "stimuli-1-q2": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Blue Book",
-                                "Yellow Book"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the book he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the book he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
-        "stimuli-1-q3": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Red Ball",
-                                "Blue Ball"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the ball he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the ball he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
-        "stimuli-2-q1": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Orange Hat",
-                                "Green Hat"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the hat he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the hat he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
-        "stimuli-2-q2": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Yellow Book",
-                                "Blue Book"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the book he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the book he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
-        "stimuli-2-q3": {
-            "kind": "exp-lookit-survey",
-            "formSchema": {
-                "schema": {
-                    "type": "object",
-                    "title": "Pass Elmo a hat!",
-                    "properties": {
-                        "species": {
-                            "enum": [
-                                "Blue Ball",
-                                "Red Ball"
-                            ],
-                            "type": "string",
-                            "title": "Can you pass Elmo the ball he wants?",
-                            "default": ""
-                        }
-                    }
-                },
-                "options": {
-                    "fields": {
-                        "species": {
-                            "type": "radio",
-                            "message": "Please pass Elmo the ball he wants!",
-                            "validator": "required-field",
-                            "removeDefaultNone": true,
-                            "sort": false
-                        }
-                    }
-                }
-            },
-            "nextButtonText": "Next"
-        },
         "all-trials": {
             "kind": "choice",
             "sampler": "random-parameter-set",
@@ -326,7 +137,7 @@
                         "source": "VIDEO1"
                     },
                     "backgroundColor": "white",
-                    "autoProceed": false,
+                    "autoProceed": true,
                     "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
                     "videoTypes": [
                         "webm",
@@ -338,34 +149,42 @@
                     "doRecording": true
                 },
                 {
-                    "kind": "exp-lookit-survey",
-                    "formSchema": {
-                        "schema": {
-                            "type": "object",
-                            "title": "Q1-TITLE",
-                            "properties": {
-                                "species": {
-                                    "enum": [
-                                        "Q1-MC1",
-                                        "Q1-MC2"
-                                    ],
-                                    "type": "string",
-                                    "title": "Q1",
-                                    "default": ""
-                                }
-                            }
+                    "kind": "exp-lookit-images-audio",
+                    "audio": "hat_audio",
+                    "images": [
+                        {
+                            "id": "hats1",
+                            "src": "Q1-IM",
+                            "position": "center",
+                            "nonChoiceOption": true
                         },
-                        "options": {
-                            "fields": {
-                                "species": {
-                                    "type": "radio",
-                                    "message": "Q1-REQUIRED",
-                                    "validator": "required-field",
-                                    "removeDefaultNone": true,
-                                    "sort": false
-                                }
-                            }
+                        {
+                            "id": "q1-mc1",
+                            "src": "Q1-MC1",
+                            "position": "left"
+                        },
+                        {
+                            "id": "q1-mc2",
+                            "src": "Q1-MC2",
+                            "position": "right"
                         }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "autoProceed": false,
+                    "doRecording": true,
+                    "choiceRequired": true,
+                    "audioTypes": [
+                        "mp3",
+                        "ogg"
+                    ],
+                    "canMakeChoiceBeforeAudioFinished": false,
+                    "allowUserPause": false,
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
                     }
                 },
                 {
@@ -375,7 +194,7 @@
                         "source": "VIDEO2"
                     },
                     "backgroundColor": "white",
-                    "autoProceed": false,
+                    "autoProceed": true,
                     "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
                     "videoTypes": [
                         "webm",
@@ -387,34 +206,42 @@
                     "doRecording": true
                 },
                 {
-                    "kind": "exp-lookit-survey",
-                    "formSchema": {
-                        "schema": {
-                            "type": "object",
-                            "title": "Q2-TITLE",
-                            "properties": {
-                                "species": {
-                                    "enum": [
-                                        "Q2-MC1",
-                                        "Q2-MC2"
-                                    ],
-                                    "type": "string",
-                                    "title": "Q2",
-                                    "default": ""
-                                }
-                            }
+                    "kind": "exp-lookit-images-audio",
+                    "audio": "book_audio",
+                    "images": [
+                        {
+                            "id": "books1",
+                            "src": "Q2-IM",
+                            "position": "center",
+                            "nonChoiceOption": true
                         },
-                        "options": {
-                            "fields": {
-                                "species": {
-                                    "type": "radio",
-                                    "message": "Q2-REQUIRED",
-                                    "validator": "required-field",
-                                    "removeDefaultNone": true,
-                                    "sort": false
-                                }
-                            }
+                        {
+                            "id": "q2-mc1",
+                            "src": "Q2-MC1",
+                            "position": "left"
+                        },
+                        {
+                            "id": "q2-mc2",
+                            "src": "Q2-MC2",
+                            "position": "right"
                         }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "autoProceed": false,
+                    "doRecording": true,
+                    "choiceRequired": true,
+                    "audioTypes": [
+                        "mp3",
+                        "ogg"
+                    ],
+                    "canMakeChoiceBeforeAudioFinished": false,
+                    "allowUserPause": false,
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
                     }
                 },
                 {
@@ -424,7 +251,7 @@
                         "source": "VIDEO3"
                     },
                     "backgroundColor": "white",
-                    "autoProceed": false,
+                    "autoProceed": true,
                     "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
                     "videoTypes": [
                         "webm",
@@ -432,97 +259,105 @@
                     ],
                     "requiredDuration": 0,
                     "requireAudioCount": 0,
-                    "requireVideoCount": 1
+                    "requireVideoCount": 1,
+                    "doRecording": true
                 },
                 {
-                    "kind": "exp-lookit-survey",
-                    "formSchema": {
-                        "schema": {
-                            "type": "object",
-                            "title": "Q3-TITLE",
-                            "properties": {
-                                "species": {
-                                    "enum": [
-                                        "Q3-MC1",
-                                        "Q3-MC2"
-                                    ],
-                                    "type": "string",
-                                    "title": "Q3",
-                                    "default": ""
-                                }
-                            }
+                    "kind": "exp-lookit-images-audio",
+                    "audio": "ball_audio",
+                    "images": [
+                        {
+                            "id": "balls1",
+                            "src": "Q3-IM",
+                            "position": "center",
+                            "nonChoiceOption": true
                         },
-                        "options": {
-                            "fields": {
-                                "species": {
-                                    "type": "radio",
-                                    "message": "Q3-REQUIRED",
-                                    "validator": "required-field",
-                                    "removeDefaultNone": true,
-                                    "sort": false
-                                }
-                            }
+                        {
+                            "id": "q3-mc1",
+                            "src": "Q3-MC1",
+                            "position": "left"
+                        },
+                        {
+                            "id": "q3-mc2",
+                            "src": "Q3-MC2",
+                            "position": "right"
                         }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+                    "autoProceed": false,
+                    "doRecording": true,
+                    "choiceRequired": true,
+                    "audioTypes": [
+                        "mp3",
+                        "ogg"
+                    ],
+                    "canMakeChoiceBeforeAudioFinished": false,
+                    "allowUserPause": false,
+                    "parentTextBlock": {
+                        "css": {
+                            "font": "13pt sans-serif"
+                        },
+                        "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
+                        "title": "For Parents"
                     }
                 }
             ],
             "parameterSets": [
                 {
                     "VIDEO1": "Stimuli_1.1",
-                    "Q1-TITLE": "Pass Elmo a hat!",
-                    "Q1-MC1": "Green Hat",
-                    "Q1-MC2": "Orange Hat",
-                    "Q1": "Can you pass Elmo the hat he wants?",
-                    "Q1-REQUIRED": "Please pass Elmo a hat!",
+                    "Q1-MC1": "Green_Hat.png",
+                    "Q1-MC2": "Orange_Hat.png",
                     "VIDEO2": "Stimuli_1.2",
-                    "Q2-TITLE": "Pass Elmo a book!",
-                    "Q2-MC1": "Blue Book",
-                    "Q2-MC2": "Yellow Book",
-                    "Q2": "Can you pass Elmo the book he wants?",
-                    "Q2-REQUIRED": "Please pass Elmo a book!",
+                    "Q2-MC1": "Yellow_Book.png",
+                    "Q2-MC2": "Blue_Book.png",
                     "VIDEO3": "Stimuli_1.3",
-                    "Q3-TITLE": "Pass Elmo a ball!",
-                    "Q3-MC1": "Red Ball",
-                    "Q3-MC2": "Blue Ball",
-                    "Q3": "Can you pass Elmo the ball he wants?",
-                    "Q3-REQUIRED": "Please pass Elmo a ball!"
+                    "Q3-MC1": "Red_Ball.png",
+                    "Q3-MC2": "Blue_Ball.png",
+                    "Q1-IM": "Hats1.png",
+                    "Q2-IM": "Books1.png",
+                    "Q3-IM": "Balls1.png"
                 },
-                 {
-                    "VIDEO1": "Stimuli_2.1",
-                    "Q1-TITLE": "Pass Elmo a hat!",
-                    "Q1-MC1": "Orange Hat",
-                    "Q1-MC2": "Green Hat",
-                    "Q1": "Can you pass Elmo the hat he wants?",
-                    "Q1-REQUIRED": "Please pass Elmo a hat!",
-                    "VIDEO2": "Stimuli_2.2",
-                    "Q2-TITLE": "Pass Elmo a book!",
-                    "Q2-MC1": "Yellow Book",
-                    "Q2-MC2": "Blue Book",
-                    "Q2": "Can you pass Elmo the book he wants?",
-                    "Q2-REQUIRED": "Please pass Elmo a book!",
-                    "VIDEO3": "Stimuli_2.3",
-                    "Q3-TITLE": "Pass Elmo a ball!",
-                    "Q3-MC1": "Blue Ball",
-                    "Q3-MC2": "Red Ball",
-                    "Q3": "Can you pass Elmo the ball he wants?",
-                    "Q3-REQUIRED": "Please pass Elmo a ball!"
+                {
+                    "VIDEO1": "Stimuli_1.1",
+                    "Q1-MC1": "Orange_Hat.png",
+                    "Q1-MC2": "Green_Hat.png",
+                    "VIDEO2": "Stimuli_1.2",
+                    "Q2-MC1": "Blue_Book.png",
+                    "Q2-MC2": "Yellow_Book.png",
+                    "VIDEO3": "Stimuli_1.3",
+                    "Q3-MC1": "Blue_Ball.png",
+                    "Q3-MC2": "Red_Ball.png",
+                    "Q1-IM": "Hats2.png",
+                    "Q2-IM": "Books2.png",
+                    "Q3-IM": "Balls2.png"
+                    
                 }
-                
             ],
             "commonFrameProperties": {
-                "doRecording": true,
-                "parentTextBlock": {
-                    "css": {
-                        "font": "13pt sans-serif"
-                    },
-                    "text": "If your child can click on their own, let them click once they are done answering the prompt. If they can't click on their own, you can click for them.\nWe're interested in what your child thinks without your help, so please don't give them any hints or feedback!",
-                    "title": "For Parents"
-                }
+                "doRecording": true
             }},
+        "end-notification": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "position": "fill",
+                "source": "dancing_elmo"
+            },
+            "backgroundColor": "white",
+            "autoProceed": true,
+            "baseDir": "https://raw.githubusercontent.com/autumnartist/9.85-lookit-stimuli-g5/master",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "requiredDuration": 0,
+            "requireAudioCount": 0,
+            "requireVideoCount": 1,
+            "doRecording": true
+        },
         "exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "Thank you so much for participating in this study! This study is based on a published paper https://pubmed.ncbi.nlm.nih.gov/31301068/.<br><br>. The main finding of the study was that 4-5 year old children can use their intuitive understanding of costs and rewards to resolve ambiguous language. The experiment showed that children are able to infer the intended meaning behind vague requests by considering utility maximization, meaning who would find it easier to help or what object would be less costly for one to obtain. Here, the students replicated only a single part of the study, looking at experiment 4a. Thank you again for participating! We'll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm that a child is with you in the video recording and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Please don’t hesitate to contact me at (INSERT TA's email) if you have any additional questions or feedback!",
+                "text": "Thank you so much for participating in this study! This study is based on a published paper https://pubmed.ncbi.nlm.nih.gov/31301068/.<br><br>The main finding of the study was that 4-5 year old children can use their intuitive understanding of costs and rewards to resolve ambiguous language. The experiment showed that children are able to infer the intended meaning behind vague requests by considering utility maximization, meaning who would find it easier to help or what object would be less costly for one to obtain. Here, the students replicated this experiment. Thank you again for participating! We'll be emailing you a $5 Amazon gift card - this should arrive in your inbox within the next week after we confirm that a child is with you in the video recording and check that your child is in the age range for this study. If you don't hear from us by then, feel free to reach out! Please don’t hesitate to contact me at shengyiw@mit.edu if you have any additional questions or feedback!",
                 "title": "Thank you for your participation!"
             },
             "showDatabraryOptions": false,
@@ -537,6 +372,7 @@
         "video-quality",
         "instructions",
         "all-trials",
+        "end-notification",
         "exit-survey"
     ]
 }
